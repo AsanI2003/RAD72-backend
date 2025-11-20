@@ -30,7 +30,7 @@ app.use("/api/v1/ai",airouter)
 // sample route with auth
 
 // public
-app.get("/test-1", (req, res) => {
+app.get("/", (req, res) => {
   res.send("backend running")
 })
 
